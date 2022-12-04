@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>LEGEZA|Ecommerce Website Design</title>
+    <link href="dist/hamburgers.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?
+    family=Poppind:wight@300;400;500;600;700& display="swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <button class="hamburger hamburger--collapse is-active" type="button">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+</head>
+<body>
+
+    <div class="Header">
+
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" width"125px">
+            </div>
+            <nav>
+                <ul id="menu-items">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Products">Products</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <li><a href="#Account">Account</a></li>
+                </ul>
+        </nav>
+        <img src="images/cart.png"width="30px" height="30px">
+        <img src="images/menu.png" class="menu-icon onclick=menutoggle()">
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <h1>Give Your life<br> A New Style!</h1>
+            <p>Beauty is from within.Stand Out</p>
+            <a href=" class btn">Explore Now &#10170;</a>
+        </div>
+        <div class="col-2">
+            <img src="images/0x0.jpg">
+    </div>
+    </div>
+    </div>
+
+    <!-----------------featured categories----------------->
+    <div class="categories">
+        <div class="small-conainer">
+        <div class="row">
+            <div class="col-3">
+                <img src="images/image.jpg">
+            <div class="col-3">
+                <img src="images/category.jpg">
+            <div class="col-3">
+                <img src="images/istockphoto.JPEG">
+        </div>
+    </div>
+    </div>
+
+    <!-----------------Featured products--------------->
+        <div class="small-conainer">
+            <h2 class="tilte">Featured Products</h2>
+            <div class="row">
+            <div class="col-4">
+                <img src="images/hmgoepprod.JPEG">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <P>Ksh500.00</P>
+            </div>
+            <div class="col-4">
+                <img src="images/istockphtot-2.JPEG">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <P>Ksh800.00</P>
+            </div>
+            <div class="col-4">
+                <img src="images/nike-running-shoes-png">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <P>Ksh1000.00</P>
+            </div>
+            <div class="col-4">
+                <img src="images/iphone.png">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <P>Ksh60,000.00</P>
+            </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="col-4">
+            <img src="images/blank-hoodie.png">
+            <h4>Red Printed T-shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <P>Ksh500.00</P>
+        </div>
+        <div class="col-4">
+            <img src="images/comp.png">
+            <h4>Red Printed T-shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <P>Ksh800.00</P>
+        </div>
+        <div class="col-4">
+            <img src="images/trouser.png">
+            <h4>Red Printed T-shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <P>Ksh1000.00</P>
+        </div>
+        <div class="col-4">
+            <img src="images/coffeT.png">
+            <h4>Red Printed T-shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <P>Ksh60,000.00</P>
+        </div>
+        <!-----------------Offers----------------->
+        <div class="offers">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                        <img scr="images/gps.png" class="offer-img">
+                    </div>
+                    <div class="col-2">
+                        <p>Exclusively Available on Legeza</p>
+                        <h1>Smart Band</h1>
+                        <small>The Mi Smar Band 4 features a 39.9% larger(than Mi Band 3) 
+                        AMOLED color full touch display with adjustable brightness,so everything 
+                        is as clear as it can be.</small>
+                        <a href="" class="btn">Buy Now &#10170; </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!----------testimonials---------->
+    <div class="testimonials">
+        <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>                   
+                <P>They are Very friendly and deliver anything on time<br>
+                    i recommend that you oder goods through them</P>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        </div>
+                        <img src="images/testistimonial_tonya.png">
+                    <h3>Tonya Smith</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>                   
+                <P>They are Very friendly and deliver anything on time<br>
+                    however it was challenging to reach their customer service<br> when enquiring about my ordered goods</P>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <img src="images/testimonial-user-1.JPEG">
+                    <h3>Johnny Walker</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>                   
+                <P>Good delivery</P>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <img src="images/testi3.png">
+                    <h3>William Jones</h3>
+            </div>
+        </div>
+    </div>
+
+        <!--------------brands-------------->
+        <div class="brands">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="images/yamaha.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/cocacola.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/samsunglogo.png">
+            </div>
+            <div class="col-5">
+                <img src="images/apple-icon-20.png">
+        </div>
+        <div class="col-5">
+            <img src="images/realme-logo-.png">
+        </div>
+    </div>
+
+    <!------------Footer------------>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="images/playystore.png">
+                        <img src="images/appstorelogo.png">
+                    </div>
+                </div>
+                <div class="footer col-2">
+                    <img src="images/logo-green.png">
+                    <p>Our Purpose is to Make our Customers Demands come into Reality.</p>
+                </div>
+                <div class="footer col-3">
+                    <h3>Useful links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog POsts</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                        <li>Concerns</li>
+                    </ul>
+            </div>
+                <div class="footer col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>Youtube</li>
+                        <li>Linkedin</li>
+                    </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">copyright 2022</p>
+    </div>
+
+<!------------------Js for toogle menu--------------------->
+    <script>
+        var MenuItems=documents.getElementaryId("menuitems");
+
+        MenuItems.stylemaxheight="0px";
+
+        function menutoggle() {
+            if(MenuItems.style.maxHeight=="0px")
+            {
+                MenuItems.style.maxHeight=="200px";
+            }
+            else{
+                MenuItems.style.maxHeight=="0px";
+            }
+        }
+    </script>
+</body>
+</html>
